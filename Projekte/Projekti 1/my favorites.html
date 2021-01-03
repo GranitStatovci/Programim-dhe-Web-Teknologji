@@ -5,40 +5,54 @@
 	
 	<meta charset="utf-8">  <!--perdoret ne html per ti njohur te gjitha simbolet si ë, etj-->
 
+					<!--Lidhja me CSS3-->
+			<link rel="stylesheet" href="../Projekti 2/my favorites style.css">
 
 			<!--Titulli i Faqes ne Tab-->
 			<title>My Favorites</title>
+
+			<!--Vendosja e icones ne Tab-->
+                <link rel="icon" href="Foto/favicon.jpg">
 </head>
 
 <body>
 
 			<!--Emri ne Krye me madhsi h1-->
-			<h1>M͜͡y͜͡ ͜͡F͜͡a͜͡v͜͡o͜͡r͜͡i͜͡t͜͡e͜͡s͜͡</h1>
+			<h1><mark>M͜͡y͜͡ ͜͡F͜͡a͜͡v͜͡o͜͡r͜͡i͜͡t͜͡e͜͡s͜͡</mark></h1>
 
 			<hr>  <!--vijë horizontale-->
 
-				<!--Vendosja e disa linqeve te faqeve tjera, me button qe te dergon ne new tab permes target=_blank-->  
-             <button><a href = "file:///C:/Users/Fujitsu/Documents/Gjuhe%20Programuese%20dhe%20Web/Projekte/Projekti%201/index.html" 
-             target=_blank>█ Home █</a></button>
-             <button><a href="file:///C:/Users/Fujitsu/Documents/Gjuhe%20Programuese%20dhe%20Web/Projekte/Projekti%201/assignments.html" target=_blank>█ My Assignments █</a></button>
-             <button><a href="#">█ My Favorites █</a></button>
-             <button><a href="file:///C:/Users/Fujitsu/Documents/Gjuhe%20Programuese%20dhe%20Web/Projekte/Projekti%201/info%20about%20my%20projects.html" target=_blank>█ Info About my Projects █</a></button>
 
+				<!--Vendosja e disa linqeve te faqeve tjera, me button qe te dergon ne new tab permes target=_blank-->  
+        <div class="navbar">
+          <nav>
+            <ul>
+            	<li><a href = "file:///C:/Users/Fujitsu/Documents/Gjuhe%20Programuese%20dhe%20Web/Projekte/Projekti%201/index.html" 
+             	target=_blank>Home</a></li>
+             	<li><a href="file:///C:/Users/Fujitsu/Documents/Gjuhe%20Programuese%20dhe%20Web/Projekte/Projekti%201/assignments.html" target=_blank>My Assignments</a></li>
+             	<li><a class="active" href="#">My Favorites</a></li>
+             	<li><a href="file:///C:/Users/Fujitsu/Documents/Gjuhe%20Programuese%20dhe%20Web/Projekte/Projekti%201/my%20skills%20and%20experience.html" target=_blank>My Skills and Experience</a></li>
+             	<li><a href="file:///C:/Users/Fujitsu/Documents/Gjuhe%20Programuese%20dhe%20Web/Projekte/Projekti%201/info%20about%20my%20projects.html" target=_blank>Info About my Projects</a></li>
+            </ul>
+          </nav>
+        </div>
 			<hr>  <!--vijë horizontale-->
 
 			<!--Vendosja e Fotos-->
+		<div id="foto">
 			<img src="Foto/world.jpg" alt="World" width="300">
+		</div>
 
 			<br>  <!--kryerresht-->
 
 			<!--Vendosja e Paragrafit-->
-			<p>Hello! Në paragrafin e 2-të do ti prezentoj disa shtete qe i kam vizituar më parë që më kanë pëlqyr, dhe disa që kam dëshirë që ti vizitoj.  <br> <!--kryerresht-->
-			Kurse në paragrafin e 3-të, do ti tregoj disa vende që ia vlen që ti vizitojmë në këto shtetet e cekura në tabelë.</p>
+			<p><mark>Hello! Në paragrafin e 2-të do ti prezentoj disa shtete qe i kam vizituar më parë që më kanë pëlqyr, dhe disa që kam dëshirë që ti vizitoj.  <br> <!--kryerresht-->
+			Kurse në paragrafin e 3-të, do ti tregoj disa vende që ia vlen që ti vizitojmë në këto shtetet e cekura në tabelë.</mark></p>
 			<br>  <!--kryerresht-->
 
 
 			<!--Vendosja e Tabeles ne body me tagun <table> dhe vendosja e margjinave te tij-->
-			<table border= "1" height="99">
+			<table border= "1" height="99"><mark>
 
 			<!--Titulli i Tabeles e shkruajtur me <strong>-->
 			<caption><strong>𝕋𝕒𝕓𝕖𝕝𝕒 𝕖 𝕊𝕙𝕥𝕖𝕥𝕖𝕧𝕖 𝕢𝕖 𝕚 𝕡𝕖̈𝕝𝕢𝕖𝕛</strong></caption>
@@ -126,12 +140,12 @@
 		<br>  <!--kryerresht-->
 
 		<!--Vendosja e paragrafit-->
-		<p>Unë nga këto shtetet e cekura në tabelë kam vizituar vetëm Norvegjinë, aty ku kam lindur, dhe si i vogël e kam pëlqyer për shkak se jeta në Skandinavi është jetë sociale ku njerëzit nuk të gjykojnë për dëshirat e tua sikurse në disa shtete sikurse Kosova!.</p>
+		<p><mark>Unë nga këto shtetet e cekura në tabelë kam vizituar vetëm Norvegjinë, aty ku kam lindur, dhe si i vogël e kam pëlqyer për shkak se jeta në Skandinavi është jetë sociale ku njerëzit nuk të gjykojnë për dëshirat e tua sikurse në disa shtete sikurse Kosova!.</mark></p>
 
 		<br>  <!--kryerresht-->
 
 		<!--vendosja e paragrafit dhe disa fjal(fonte) te theksuara me tagun <strong>-->
-  <p>
+  <p><mark>
 
 	   <strong>Në Angli</strong> - Ja vlen te vizitohen këto vende:
  	   Londra mbase është kryeqytet,
@@ -170,7 +184,11 @@
  	  Edhe pse Berni është kryeqyteti i tij Cyrihu njihet më shumë nga e gjithë bota për shkak se ka një bukuri të vet ku në qytet kalon lumi
  	  Zvicrra po ashtu njihet si shteti me fshatrat më të bukura në botë ku nata për turista është tejet e shtrenjtë por nuk zhgënjeheni nëse i vizitoni.  <br>  <!--kryerresht-->
 
-	</p>
+	</mark></p>
+
+
+<a href="#"><span class="cd-top cd-is-visible" style="background: url('Foto/buttom.png') no-repeat 10% 25%;">Back to Top</span></a>	
+
 
 	<br>  <!--kryerresht-->
 	<hr>  <!--vije horizontale-->
@@ -179,9 +197,10 @@
 
 	 <!--hapja e footerit detekton fundin e faqes-->
 	 <footer>
-	
+
+
 	 <!--Shkrim i Textit me fontin h5 dhe simboli copyright-->
-    <h5>&copy;2020 by Granit Statovci, Inc. All Right Reserved.</h5>
+    <h5>&copy;2020. All rights reserved | Krijuar me ☛ღ☚ by: Granit Statovci</h5>	
 	
 	</footer>
 

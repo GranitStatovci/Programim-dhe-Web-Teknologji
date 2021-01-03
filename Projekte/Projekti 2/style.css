@@ -1,0 +1,158 @@
+/* Design index style */ 
+
+*{ padding: 0;
+   margin: 0; }
+
+
+body {background-image : url(Foto/wallper.jpg);
+	background-repeat: no-repeat; 
+	background-repeat: no-repeat;
+	background-attachment: fixed; }
+
+a {color: white; }
+
+
+.navbar {height: 80;
+		 width: 100;
+		 background: rgba(9,9,9,9.9); }
+
+.navbar ul {margin-right: 20px; }
+
+.navbar li {list-style: none;
+			margin: 0 8px;
+			display: inline-block; 
+			line-height: 80px; }
+
+.navbar ul li {text-decoration: none; 
+				color: white;
+				font-size: 20px;
+				padding: 6px 13px;
+				font-family: 'Roboto', sans-serif; 
+				transition: .4s; }
+
+.navbar ul li a.active,
+.navbar ul li a:hover
+{background-color: red;
+  border-radius: 2px; }
+
+
+#boy {margin: 15px 25px;
+	clip-path: circle();
+	float: left; }
+
+
+#logo {margin: 25px 25px;
+	clip-path: circle();
+	float: right; }
+
+
+p  {font-size: 16pt;
+	color: lightblue;
+	text-indent: 1em;
+	font-family: arial, sans-serif; }
+
+
+#emri {color: white; }
+
+
+li {color: white; }
+
+
+ h1 { text-align: center; 
+ 	  color: yellow; 
+ 	  font-size: 30pt; }
+
+
+ h3 {text-align: center;
+ 	font-size: 22pt;
+ 	color: lightblue;
+ 	font-family: arial, sans-serif; }
+
+
+ div {color: white; 
+ 		text-align: center; }
+
+
+ p { color: white;
+ text-align: center; }
+
+
+ i {text-align: center; 
+ 	font-size: 15pt; }
+
+
+i a.active,
+i a:hover
+{background-color: gray;
+  border-radius: 2px; }
+
+
+ strong {color: pink; 
+ 		text-align: center; 
+ 		font-size: 16pt; }
+
+
+ footer {color: white;
+ 		text-align: center; }
+
+
+ b {font-size: 18pt;
+ 	color: white; }
+
+
+h5  {font-size: 12pt;
+ 	color: red; }
+
+
+.contact {float: center; }
+
+
+.box1 {border: 1px solid rgba(0,0,0,.125); }
+.box2 {border: 1px solid rgba(6,7,8,.625); }
+.box3 {border: 1px solid rgba(0,0,0,.125); }
+
+
+li {float: center;
+	list-style: none;
+	margin: 0 30px;
+	display: inline-block; 
+	line-height: 10px; }
+
+
+.cd-top.cd-is-visible {
+    visibility: visible;
+    opacity: 1; }
+
+
+.cd-top {
+    width: 140px;
+    right: 100px;
+    bottom: 15%;
+    text-indent: 0;
+    background-position-x: 20% !important; }
+
+
+.cd-top {
+    width: 140px;
+    right: 100px;
+    bottom: 15%;
+    text-indent: 0;
+    background-position-x: 70% !important; }
+
+
+.cd-top {
+    height: 40px; }
+
+
+.cd-top {position: fixed;
+    display: inline-block;
+    box-shadow: 0 0 4px #808080;
+    border-radius: 4px;
+    overflow: hidden;
+    white-space: nowrap; 
+	font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px; }
